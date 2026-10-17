@@ -1,17 +1,47 @@
-# water
+# Panchayat Water Management System
 
-A new Flutter project.
+A mobile application designed to improve communication between Panchayat water supply operators and residents by providing water supply schedules, complaint management, and water resource monitoring.
 
-## Getting Started
+## About the Project
 
-This project is a starting point for a Flutter application.
+Water supply timings and unexpected interruptions can cause difficulties for village residents. This application aims to make water distribution information more accessible and simplify communication between residents, operators, and administrators.
 
-A few resources to get you started if this is your first Flutter project:
+## Key Features
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 1. Resident Module
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* View water supply schedules based on street.
+* Submit water-related complaints with photographs.
+* Track complaint status.
+* Receive water supply announcements.
+
+### 2. Operator Module
+
+* Manage water supply schedules for assigned streets.
+* Update pump and pipeline status.
+* Record water pressure and quality information.
+* View and manage resident complaints.
+
+### 3. Admin Module
+
+* Monitor water tank levels.
+* View water supply schedules and complaints.
+* Manage water distribution activities.
+* Prevent scheduling when the available tank level is insufficient.
+
+## Water Supply Scheduling
+
+The application follows a scheduling rule that requires operators to announce water supply timings at least three hours in advance. This helps residents prepare for scheduled water distribution.
+
+## Technology Stack
+
+The technologies used depend on the implemented version of the application. Update this section with the actual technologies used in your project.
+
+* **Frontend:** Add your actual framework or technology.
+* **Backend:** Add your actual backend technology, if applicable.
+* **Database:** Add your actual database, if applicable.
+* **Platform:** Mobile Application
+
+## Project Purpose
+
+The goal is to improve transparency in Panchayat water distribution, provide timely information to residents, and make complaint handling more organized.
